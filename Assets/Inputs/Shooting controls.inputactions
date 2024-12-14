@@ -1,0 +1,74 @@
+{
+    "name": "Shooting controls",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "db77e276-3a76-4ae3-abf9-1f19cc978c6b",
+            "actions": [
+                {
+                    "name": "TriggerPreddedLeft",
+                    "type": "Button",
+                    "id": "895883db-a949-4770-a2bc-ab379b503d3f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerPressRight",
+                    "type": "Button",
+                    "id": "48bcb11d-4522-4ef5-9a49-7213890be0c6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "AButtonPressedRight",
+                    "type": "Button",
+                    "id": "9c5a788c-f389-4171-ba58-5b6136249188",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b8f9cc74-e63e-497b-9d32-51d4eb039de9",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPreddedLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e4aa7605-b0e4-4a01-b431-259a6390d528",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77aa44fd-0f70-49cc-9824-f162aec981f1",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AButtonPressedRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
